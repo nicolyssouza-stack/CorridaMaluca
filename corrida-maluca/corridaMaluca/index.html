@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Corrida Maluca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style.css">
+</head>
+<body>
+    <div class="fundo-oceano">
+        <div class="bolha" style="width: 35px; height: 35px; left: 10%; animation-duration: 9s;"></div>
+        <div class="bolha" style="width: 20px; height: 20px; left: 25%; animation-duration: 6s; animation-delay: 1s;"></div>
+        <div class="bolha" style="width: 50px; height: 50px; left: 45%; animation-duration: 12s; animation-delay: 2s;"></div>
+        <div class="bolha" style="width: 25px; height: 25px; left: 65%; animation-duration: 8s; animation-delay: 0.5s;"></div>
+        <div class="bolha" style="width: 40px; height: 40px; left: 82%; animation-duration: 11s; animation-delay: 3s;"></div>
+        <div class="bolha" style="width: 18px; height: 18px; left: 92%; animation-duration: 7s; animation-delay: 1.5s;"></div>
+
+        <div class="alga" style="left: 4%; height: 180px;"></div>
+        <div class="alga" style="left: 7%; height: 130px; animation-delay: 1s;"></div>
+        <div class="alga" style="left: 11%; height: 210px; animation-delay: 0.5s;"></div>
+        <div class="alga" style="right: 5%; height: 200px; animation-delay: 1.2s;"></div>
+        <div class="alga" style="right: 9%; height: 150px; animation-delay: 0.3s;"></div>
+        <div class="alga" style="right: 13%; height: 170px; animation-delay: 1.8s;"></div>
+    </div>
+
+    <h1>🦈 Corrida Aquatica 🦦</h1>
+    <p>Quem chegar primeiro ganha!</p>
+
+    <div class="pista">
+        <div class="faixa">
+            <div id="tubas" class="carro">🦈</div>
+        </div>
+
+        <div class="faixa">
+            <div id="lontra" class="carro">🦦</div>
+        </div>
+
+        <div id="chegada" class="chegada"></div>
+    </div>
+
+    <h2 id="mensagem" class="mensagem">Preparar, apontar, nadar!!!!</h2>
+    
+    <div class="controles">
+        <button id="botao1">Acelerar tubas (A)</button>
+        <button id="turbo1">clica aqui pro tubarao (Q)</button>
+        <button id="botao2">Acelerar lontra (L)</button>
+        <button id="turbo2">clilca aqui pra lontra (P)</button>
+        <button id="reiniciar">Reiniciar</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
